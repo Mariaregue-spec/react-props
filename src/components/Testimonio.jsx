@@ -13,13 +13,9 @@ function Testimonio(props) {
                 src={imagenes[`../assets/img/${props.imagen}.png`]}
                 alt={`Foto de ${props.nombre}`}
             />
-
             <div className='contenedor-texto-testimonio'>
                 <p className='nombre-testimonio'>
                     <strong>{props.nombre}</strong> en {props.pais}
-                </p>
-                <p className='-testimonio'>
-                    {props.cargo} en <strong>{props.empresa}</strong>
                 </p>
                 <p className='texto-testimonio'>
                     "{props.testimonio}"
