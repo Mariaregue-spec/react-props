@@ -28,11 +28,18 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image:url(assets/img/bandera-Galicia.png) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 h1 {
   font-size: 3.2em;
-  line-height: 1.1;
+  line-height: 1.1; 
+  margin: 0.2em 0 0.4em;
+  background-color: #67B6DB;
+  border-radius: 10px;
 }
 
 button {
