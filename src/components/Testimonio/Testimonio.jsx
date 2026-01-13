@@ -1,6 +1,6 @@
-import '../styles/Testimonio.css';
+import './Testimonio.css';
 
-const imagenes = import.meta.glob('../assets/img/*.png', {
+const imagenes = import.meta.glob('../../assets/img/*.png', {
     eager: true,
     import: 'default'
 });
@@ -10,7 +10,7 @@ function Testimonio(props) {
         <div className='contenedor-testimonio'>
             <img
                 className='imagen-testimonio'
-                src={imagenes[`../assets/img/${props.imagen}.png`]}
+                src={imagenes[`../../assets/img/${props.imagen}.png`]}
                 alt={`Foto de ${props.nombre}`}
             />
             <div className='contenedor-texto-testimonio'>
