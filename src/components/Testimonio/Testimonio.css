@@ -2,23 +2,19 @@
     width: 100%;             
     max-width: 1170px;       
     min-height: 368px;       
-
-    margin: 10px auto 50px;  
+    margin: 10px 10auto 50px;  
     display: flex;
     align-items: center;
     justify-content: center;
-
-    background-color: #fff;
+    background-color: #478256;
     box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
     color: black;
 }
 
 
 .imagen-testimonio {
-    width: 100%;
-    max-width: 250px;
-    height: auto;
-    border-radius: 8px;
+    height: 100%;
+    width: auto;
 }
 
 
