@@ -1,17 +1,27 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 # react-props
+
+**Descripción**
+- Proyecto demo en React y Vite que muestra testimonios sobre cinco ciudades relevantes de Galicia.
+- Objetivo: practicar el paso de props entre componentes y la composición de la interfaz.
+
+**Tecnologías**
+- React 19
+- Vite
+- ESLint
+
+**Estructura**
+- Archivo raíz: [package.json](package.json)
+- Componente principal: [src/App.jsx](src/App.jsx#L1-L400)
+- Componentes: [src/components](src/components) — contiene `Navbar`, `Footer` y `Testimonio`
+- Estilos: [src/App.css](src/App.css) y hojas CSS dentro de cada componente
+- Imágenes: [src/assets/img](src/assets/img)
+
+**Características**
+- Componentes reutilizables (`Testimonio`, `Navbar`, `Footer`).
+- Uso de props para pasar `nombre`, `pais`, `imagen` y `testimonio`.
+- Configuración ligera con Vite para desarrollo rápido y HMR.
+
+**Instalación**
+- Instalar dependencias:
+```bash
+npm install
