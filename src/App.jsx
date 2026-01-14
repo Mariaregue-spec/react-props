@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar/Navbar.jsx';
+import Footer from './components/Footer/Footer.jsx';  
 import Testimonio from './components/Testimonio/Testimonio';
 import './App.css';
 
@@ -47,6 +48,8 @@ function App() {
           testimonio='Es la ciudad más grande de Galicia y una importante zona portuaria junto a la Ría de Vigo. Ofrece playas, barrios antiguos como el Casco Vello, parques, miradores y una rica gastronomía centrada en productos del mar.'
         />
       </div>
+      {/* FOOTER */}
+      <Footer />  
     </>
   );
 }
