@@ -95,7 +95,7 @@ react-props/
 │
 ├─ package.json
 └─ README.md
-
+```
 ---
 
 ## 🧱 Componentes principales
